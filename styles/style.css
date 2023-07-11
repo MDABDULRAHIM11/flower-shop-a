@@ -79,11 +79,14 @@ body {
     font-size: 13px;
 }
 
-/* flower item's featured section start from here */
+.featured-facilities-section{
+    padding:0px 140px;
+}
 .featured-container{
-    padding: 30px 140px;
+ padding: 30px 213px;
     display: flex;
     gap: 20px;
+    
 }
 
 .featured-image{
