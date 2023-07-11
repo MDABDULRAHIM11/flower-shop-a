@@ -79,7 +79,7 @@ body {
     font-size: 13px;
 }
 
-.featured-facilities-section{
+.featured-section{
     padding:0px 140px;
 }
 
@@ -124,5 +124,21 @@ height: 340px;
     align-items: center;
     text-decoration: underline;
 }
-/*  */
+/* facilities section start from here */
+.facilities-section{
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    height: 300px;
+    margin-top: 100px;
+    margin-left: 170px;
+    margin-right: 186px;
+}
+
+.facilities-container{
+    display: flex;
+   text-align: center;
+   align-items: center;
+   justify-content: space-evenly;
+   padding-top: 85px;
+}
   
