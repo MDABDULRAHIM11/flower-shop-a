@@ -82,8 +82,12 @@ body {
 .featured-facilities-section{
     padding:0px 140px;
 }
+
+.featured-image-container{
+    text-align: center;
+}
 .featured-container{
- padding: 30px 213px;
+ padding: 30px ;
     display: flex;
     gap: 20px;
     
@@ -99,7 +103,7 @@ height: 340px;
 .flower-one{
     width:210px;
     margin-top: 50px; 
-    margin-left: 45px;
+    margin-left: 8px;
 }
 
 .flower-two{
@@ -113,4 +117,12 @@ height: 340px;
     padding-left: 35px;
     padding-top: 17px;
 }
+
+.tree-name-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: underline;
+}
+/*  */
   
