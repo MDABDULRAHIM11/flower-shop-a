@@ -16,6 +16,11 @@ body {
     font-size: 20px;
     border: none;
     padding: 10px 25px;
+    cursor: pointer;
+}
+
+.btn-primary:hover{
+    background-color:#272727;
 }
 
 /* header section start from here */
@@ -144,6 +149,8 @@ body {
     padding-top: 85px;
 }
 
+
+
 /* hot deal section start from here */
 .hot-deal-section {
     margin-top: 120px;
@@ -187,7 +194,12 @@ body {
     border: none;
     padding: 10px 25px;
     text-align: center;
+    cursor: pointer;
     /* margin-left: 100px; */
+}
+
+.btn-hot-deal:hover{
+    background-color:#272727;
 }
 
 .hot-deal-title-container {
@@ -242,7 +254,44 @@ body {
     width: 254px;
 }
 
-/* latest deal sectio start from here */
+/* boxes section start from here */
+
+.box-title{
+    color: #272727;
+font-family: Lato;
+font-size: 26px;
+padding-bottom: 15px;
+}
+
+.box-description{
+   width: 190px;
+   color: #757575;
+    font-size: 17px;
+}
+
+.boxes {
+    max-width: 190px;
+    height: 350px;
+    background-color: white;
+    padding-left: 30px;
+    /* padding-top: 30px; */
+    padding-right: 25px;
+    padding-bottom: 10px;
+    box-shadow: 0px 6px 100px 0px rgba(0, 0, 0, 0.06);
+    border-radius: 15px;
+}
+
+.box-container{
+  margin-top: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-left: 80px;
+  padding-right: 140px;
+}
+
+
+/* latest deal sectiom start from here */
 .latest-deal-title {
     margin-top: 100px;
     text-align: center;
@@ -315,18 +364,28 @@ body {
     color: #E55473;
 }
 
+.hr-container{
+    width: 50%;
+    margin: auto;
+}
+
 .footer-description {
     color: rgba(255, 255, 255, 0.90);
     text-align: center;
     font-size: 14px;
     width: 550px;
     padding-left: 400px;
-    padding-bottom: 15px;
+    padding-bottom: 8px;
+}
+
+.social-accounts-link{
+    padding-bottom: 11px;
 }
 
 .copyright {
     color: rgba(255, 255, 255, 0.40);
     text-align: center;
     font-size: 16px;
+    padding-top: 7px;
 }
 
