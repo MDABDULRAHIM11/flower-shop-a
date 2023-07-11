@@ -19,8 +19,8 @@ body {
     cursor: pointer;
 }
 
-.btn-primary:hover{
-    background-color:#272727;
+.btn-primary:hover {
+    background-color: #272727;
 }
 
 /* header section start from here */
@@ -198,8 +198,8 @@ body {
     /* margin-left: 100px; */
 }
 
-.btn-hot-deal:hover{
-    background-color:#272727;
+.btn-hot-deal:hover {
+    background-color: #272727;
 }
 
 .hot-deal-title-container {
@@ -256,16 +256,16 @@ body {
 
 /* boxes section start from here */
 
-.box-title{
+.box-title {
     color: #272727;
-font-family: Lato;
-font-size: 26px;
-padding-bottom: 15px;
+    font-family: Lato;
+    font-size: 26px;
+    padding-bottom: 15px;
 }
 
-.box-description{
-   width: 190px;
-   color: #757575;
+.box-description {
+    width: 190px;
+    color: #757575;
     font-size: 17px;
 }
 
@@ -281,13 +281,13 @@ padding-bottom: 15px;
     border-radius: 15px;
 }
 
-.box-container{
-  margin-top: 120px;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  padding-left: 80px;
-  padding-right: 140px;
+.box-container {
+    margin-top: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 80px;
+    padding-right: 140px;
 }
 
 
@@ -349,7 +349,7 @@ padding-bottom: 15px;
     height: 48vh;
 }
 
-.footer-section{
+.footer-section {
     padding-top: 90px;
 }
 
@@ -364,7 +364,7 @@ padding-bottom: 15px;
     color: #E55473;
 }
 
-.hr-container{
+.hr-container {
     width: 50%;
     margin: auto;
 }
@@ -378,7 +378,7 @@ padding-bottom: 15px;
     padding-bottom: 8px;
 }
 
-.social-accounts-link{
+.social-accounts-link {
     padding-bottom: 11px;
 }
 
@@ -389,3 +389,36 @@ padding-bottom: 15px;
     padding-top: 7px;
 }
 
+.our-location {
+    color: #070707;
+    text-align: center;
+    font-size: 33px;
+    padding-bottom: 10px;
+}
+
+.location-description{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.location-title{
+    margin-top: 80px;
+}
+
+.location-container{
+    background-image: url(../flower-location.PNG);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    align-items: center;
+    margin-left: 390px;
+    margin-top: 30px;
+    border: 18px solid #111010;
+    border-radius: 92px;
+    max-width: 500px;
+    height: 300px;
+}
