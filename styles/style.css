@@ -79,4 +79,35 @@ body {
     font-size: 13px;
 }
 
-/* flower item's section start from here */
+/* flower item's featured section start from here */
+.featured-container{
+    padding: 30px 140px;
+    display: flex;
+    gap: 20px;
+}
+
+.featured-image{
+    border-radius: 300px 300px 0px 0px;
+background: rgba(167, 33, 98, 0.15);
+width: 300px;
+height: 340px;
+}
+
+.flower-one{
+    width:210px;
+    margin-top: 50px; 
+    margin-left: 45px;
+}
+
+.flower-two{
+    width: 250px;
+    padding-left: 35px;
+    padding-top: 64px;
+}
+
+.flower-three{
+    width: 215px;
+    padding-left: 35px;
+    padding-top: 17px;
+}
+  
