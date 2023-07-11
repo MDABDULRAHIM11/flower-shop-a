@@ -290,6 +290,12 @@ body {
     padding-right: 140px;
 }
 
+.explore-more{
+    text-decoration:underline #E55473;
+    color: #E55473;
+    cursor: pointer;
+    font-size: 18px;
+}
 
 /* latest deal sectiom start from here */
 .latest-deal-title {
